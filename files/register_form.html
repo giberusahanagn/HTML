@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Register Form </title>
+</head>
+<body>
+   <form> 
+     <label><h3 style="color:brown;">Email</h3></label>
+    
+       
+    
+     
+        <label>Enter First name :</label>  <select>
+            <option>--select--</option> 
+            <option>Mr.</option> 
+            <option>Miss.</option> 
+            <option>Mrs.</option> 
+        </select><!-------lable tag---->
+        <input  type="text"  name="firstName" placeholder="first name" required minlength="2" maxlength="13" >
+
+    
+        <label>Enter Last name :</label>
+        <input  type="text" name="lastName" placeholder="last Name">
+    
+
+    <br>
+    <div>
+        <label> Enter Age:</label>
+        <input type="number" name="age" min="18" max="45">
+    </div>
+    <br>
+    <div>
+        <label> Enter Email :</label>
+        <input type="email" name="email" placeholder="email@gmail.com">
+    </div>
+    <br>
+    <div> <label>Enter password :</label>
+        <input type="password" placeholder="password" min="8">
+    </div>
+   <br>
+  <div>  
+    <label > Gender :</label>    
+    <input type="radio" name="Gender" > Male<!-- choose button--->
+    <input type="radio" name="Gender">female
+    <input type="radio" name="Gender">others
+  </div>
+  <br>
+  <div>
+    <label>Select course :</label>
+    <input type="checkbox">Java
+    <input type="checkbox">Html
+    <input type="checkbox">Sql
+</div>
+  <br>
+  <div>  
+    <label> DOB </label>
+    <input type="date"> 
+    <br>
+    <br>
+    <label>City :</label>    
+     
+    <!-- choose select--->
+    <select>
+        <option>---select--</option>
+        <option>Bangalore</option>
+        <option>mysore</option>
+        <option>mangalore</option>
+    </select>
+  </div>
+  <br>
+  <div> 
+    <label> Address :</label>
+    <textarea rows ="5" cols="7" >Adress</textarea>
+  </div>
+  <br>
+  <div> 
+    <label>Enter phone number</label>
+    <input type="text" placeholder="+91 9008284717">
+  </div>
+
+<br>
+<div>
+    <label>Select file/Resume : </label>
+    <input type="file" name="uploadFile">
+</div>
+
+    <br>
+<button type="submit" >Submit</button> </form>
+   
+
+</body>
+</html>
