@@ -1,0 +1,13 @@
+h1,h2,p{
+    color:salmon;
+    font-size: 67px;
+    text-transform: uppercase ;
+}
+.classSelector{
+    color:aqua;
+    font-style: unset;
+    text-decoration:coral underline;
+}
+#idSelector{
+    color:blue;
+}

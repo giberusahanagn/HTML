@@ -1,0 +1,63 @@
+.box{
+    padding: 20px 40px 50px 70px;
+    border: 2px solid salmon;
+    border-top: 7px solid orange;
+    margin: 20px;
+    background-color: brown;
+    
+}
+
+.rectangle{
+    border: 5px solid gold;
+    height: 75px;
+    
+}
+
+
+.box1{
+    border: 2px solid red;
+    width: 700px;
+    height: 600px;
+
+}
+
+.innerBox{
+    border: 2px solid green;
+    width: 500px;
+    height: 400px;
+    margin-left: 60px;
+}
+.rect1{
+    
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.rect2{
+
+    border: 2px solid green;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.rect3{
+    border : 2px solid green;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.rect4{
+    border: 2px solid green;
+    width: 300px;
+    height: 300px;
+    display: inline-table ;  
+}
+
+body{
+    background-image:url('D:\\HTML\\files\\Screenshot (124).png');
+    height: 1000px;
+    width: 1000px;
+    background-repeat: repeat;
+    background-size:  none;
+}

@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+   
+  float: left;
+  width: 20px;
+  padding: 50px;
+  
+}
+.main::after{
+    content="";
+clear: both;
+display:table;
+}
