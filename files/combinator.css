@@ -1,0 +1,10 @@
+div p{
+/* Desedent selector*/
+    color:  blueviolet;
+}
+
+div >p{
+    /* chlid  selector*/
+
+    color: brown;
+}
