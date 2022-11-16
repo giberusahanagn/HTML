@@ -1,10 +1,40 @@
 div p{
 /* Desedent selector*/
-    color:  blueviolet;
+
+    color:  blueviolet; 
 }
 
 div >p{
     /* chlid  selector*/
 
     color: brown;
+}
+/* Adjacent sibling  selector*/
+div + p{
+    color:orange;
+}
+
+/* general sibling  selector*/
+div ~ p{
+    color: cornflowerblue;
+    
+}
+.static{
+    position: static;
+    top: 100px;
+    left:100px;
+}
+.relative{
+    position: relative;
+     left: 100px;
+     top: 50px;
+bottom: 78px;
+
+}
+.absolute{
+    top:0;
+    position:absolute;
+}
+.image{
+    position: relative;
 }
