@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
        <title>Register Form </title>
+       <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.css'>  
 </head>
 <body>
    <form> 
-     <label><h3 style="color:brown;">Email</h3></label>
-    
-       
-    
-     
+    <div class="form-group">
+     <label><h3 style="color:brown;">Email</h3></label></div>
         <label>Enter First name :</label>  <select>
             <option>--select--</option> 
             <option>Mr.</option> 
@@ -34,7 +32,7 @@
         <input type="email" name="email" placeholder="email@gmail.com" autocomplete="off">
     </div>
     <br>
-    <div> <label>Enter password :</label>
+    <div class="form-group"> <label>Enter password :</label>
         <input type="password" placeholder="password" min="8">
     </div>
    <br>
@@ -96,6 +94,49 @@
     property:value;
   }
   -->
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="group.jpg">
 
+    </div>
+    <div class="col-lg-4">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, aspernatur.</p>
+      
+    </div>
+  </div>
+
+
+
+
+  <div class="row" >
+    <div class="col-lg-4 ">
+      <img src="group.jpg">
+    </div>
+    <div class="col-lg-4 ">
+<table class="table">
+  <tr>
+    <th>sl.no</th>
+    <th>movie</th>
+    <th>price</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>kantara</td>
+    <td>100</td>
+  </tr>
+</table>
+      
+    </div>
+    <div class="col-lg-4">
+      <div class="form-group">
+        <div class="from-control">
+          <label>Email
+            <input type="text">
+    
+        <label class="from-control" >password
+        <input type="password" >
+        </div>   
+       </div>
+  </div>
 </body>
 </html>

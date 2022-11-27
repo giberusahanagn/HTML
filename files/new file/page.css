@@ -1,0 +1,112 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.image{
+    padding-right: 30px;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+.text{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 20px ;
+}
+.image1{
+    position: absolute;
+    left:0;
+}
+
+/* body{
+    padding: auto;
+} */
+button{
+    margin: 50px;
+}
+
+#about{
+    display: flex;
+}
+
+.section1{
+    border : 10px solid green;
+    padding: 20px;
+    width: 30%;
+    height: 300px;
+    display: inline-block ;  
+}
+.p{
+    margin-left: 200px;
+    font-size: x-large;
+}
+.center{
+    text-align: center;
+    margin-left: 200px ;
+    background-color: blueviolet;
+}
+.our{
+    background-color: grey;
+}
+.OurService{
+display: flex;
+border: 1px solid grey  ;
+}
+
+.freepick1{
+   margin-top: 30px;
+    display: flex;
+}
+
+.feature{
+    text-align: center;
+font-size: xxx-large;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+/* .image3-text-content{
+    display: flex;
+    justify-content: space-between;
+}   */
+
+.full-info{
+    display: flex;
+}
+.des{
+    justify-content: space-between;
+    display: flex;
+}
+.tour{
+    display: flex;
+}
+.image3-text-content{
+    margin-bottom: 10px;
+    margin-top: 0;
+    /* margin-left: 50%; */
+    font-size: x-large;
+  display: flex;
+  /* justify-content: space-evenly; */
+font-family:'Times New Roman', Times, serif;
+}
+.tour-2{
+    display: flex;
+}
+.last{
+    background-color: aqua;
+    padding: 20px;
+border:3px solid aqua;
+}
+.last1{
+    display: flex;
+    
+}
+.image-set{
+    display: flex;
+
+}
+.copyrigth{
+    background-color: darkblue;
+padding: 40px;
+
+}
