@@ -1,93 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  
-    <title>Document</title>
-    <link rel="stylesheet" href="sahana.css">
+    
+    <title>Page Title</title>
+  <script>
+    function display(){
+      console.log("calling details........");
+      let name=document.getElementById("name")
+       console.log(name)
+       console.log(name.value)
+     let details=document.getElementById("details")
+       details.innerHTML=name.value
+    }
+    function player1(){
+    //  console.log("calling details........");
+     let name1=document.getElementById("name1")
+    //    console.log(name1)
+    //   console.log(name1.value)
+       let details1=document.getElementById("details1")
+     details1.innerHTML="Virat Kohli"
+    }
+    function player2(){
+        let name2=document.getElementById("name2")
+        let details2=document.getElementById("details2")
+     details2.innerHTML="MS dhoni"
+    }
+    function player3(){
+        let name3=document.getElementById("name3")
+        let details3=document.getElementById("details3")
+     details3.innerHTML="Siraj"
+    }
+    function player4(){
+        let name4=document.getElementById("name4")
+        let details4=document.getElementById("details4")
+     details4.innerHTML="Devdath"
+    }
+    function player5(){
+        let name5=document.getElementById("name5")
+        let details5=document.getElementById("details5")
+     details5.innerHTML="Rishab"
+    } 
+    function player6(){
+        let name6=document.getElementById("name6")
+        let details6=document.getElementById("details6")
+     details6.innerHTML="KL Rahul"
+    }
+    function player7(){
+        let name7=document.getElementById("name7")
+        let details7=document.getElementById("details7")
+     details7.innerHTML="Ravindra Jadeja"
+    }
+    function player8(){
+        let name8=document.getElementById("name8")
+        let details8=document.getElementById("details8")
+     details8.innerHTML="chahal"
+    }
+    function player9(){
+        let name9=document.getElementById("name9")
+        let details9=document.getElementById("details9")
+     details9.innerHTML="Rahul dravid"
+    }
+    function player10(){
+        let name10=document.getElementById("name10")
+        let details10=document.getElementById("details10")
+     details10.innerHTML="Anil"
+    }
+      </script>
 </head>
+   
+
 <body>
-    <div class="box1">
-<h3>Resume</h3>
+  <form>
+      <div>
+    <div>
+      <label>Enter name</label>
+      <input type="text" id="name">
     </div>
-    <br>
-    <div class="box2">
-     <strong>   Career Objective:</strong>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A debitis saepe velit? Debitis, labore. Repudiandae quaerat voluptas officia nulla maiores. Totam quisquam 
-            ipsam ex animi alias nostrum nisi, neque voluptate!</p>
+    <button onmouseover="display()">Submit</button>
+    <div id="details">
     </div>
-    <br>
-    <div class="box3">
-        <h3>About</h3>
-        <ul> <li>Name: Sahana G N</li>
-            <li>DOB: 03/12/2000</li>
-            <li>Location:Davanagere</li></ul>
-    </div>
-    <div class="TechnicalSkills">
-        <h3>Technical Skills</h3>
-        <ul>
-            <li>Java</li>
-            <li>HTML,CSS</li>
-            <li>SQL</li>
-        </ul>
-    </div>
-    <div class="Education">
-        <h3>Education</h3>
-        <table>
-            <thead>
-                <th>Education</th>
-                <th>School</th>
-                <th>Percentage</th>
-                <th>YOP</th>
-            </thead>
-<tbody>
-    <tr>
-        <td><strong>10th</strong></td>
-        <td>Governmant Junior College</td>
-        <td>85.92%</td>
-        <td>2016</td>
-    </tr>
-    <tr>
-        <td><strong>12th</strong></td>
-        <td>Sri Bhuvanendra PU College</td>
-        <td>75%</td>
-        <td>2018</td>
-    </tr>
-    <tr>
-        <td><strong>Degree</strong></td>
-        <td>East West College Of Engineering,Bangalore</td>
-        <td>67.89%</td>
-        <td>2018-2022</td>
-    </tr>
-</tbody>
-        </table>
-    </div>
-    <div class="Project">
-        <h3>Project</h3>
-       <li><strong>Voice based Email for Visually impaired Person:</strong> </li>
-     <p>   The project aim is to develop a voice-based E-Mail system 
-        that would help the visually impaired people to access the 
-        E-mail easily. This application is also helpful for normal 
-        persons.</p>
-        <br>
-       <li><strong>BMRCL:</strong> </li> 
-       <p>Bangalore Metro Railway Corporation Limited
-        This is an integrated service which provide all information about 
-        the metro rail and its routes for public. The proposed system is a 
-        web-based application which provides information regarding 
-        timings, routes, fair.</p>
-        <br>
-        
-        <li><strong>BALL AND BASKET:</strong></li>
-        <p>This computer graphics project is programmed using the basic 
-            OpenGL functions and using the C++ language. This game 
-            consists of a 3D ball and a basket. The player has to catch the 
-            balls arriving from the various positions and the player can 
-            move the basket in the horizontal directions i.e., left or right. If 
-            the ball is missed, the game stops.</p>
-    </div>
-    <div class="declaration">
-        <strong>Declaration :</strong>
-        <p>I am here by declaraing that the above information are true.</p>
-    </div>
+   </div>
+
+    <div>
+      <button onmouseover="player1()">Player1</button>
+      <span id="details1"> </span>
+    </div> 
+
+    <div>
+        <button onmouseover="player2()">Player2</button>
+        <span id="details2"> </span>
+      </div> 
+      
+    <div>
+        <button onmouseover="player3()">Player3</button>
+        <span id="details3"> </span>
+      </div> 
+      
+    <div>
+        <button onmouseover="player4()">Player4</button>
+        <span id="details4"> </span>
+      </div> 
+      
+    <div>
+        <button onmouseover="player5()">Player5</button>
+        <span id="details5"> </span>
+      </div> 
+      
+    <div>
+        <button onmouseover="player6()">Player6</button>
+        <span id="details6"> </span>
+      </div> 
+      
+    <div>
+        <button onmouseover="player7()">Player7</button>
+        <span id="details7"> </span>
+      </div> 
+      <div>
+        <button onmouseover="player8()">Player8</button>
+        <span id="details8"> </span>
+      </div> 
+      <div>
+        <button onmouseover="player9()">Player9</button>
+        <span id="details9"> </span>
+      </div> 
+      <div>
+        <button onmouseover="player10()">Player10</button>
+        <span id="details10"> </span>
+      </div> 
+</form>
+    
 </body>
 </html>

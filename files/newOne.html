@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+   
+  <script>
+      function display(){
+         
+          console.log("calling ....")
+          let firstName=document.getElementById("firstName")
+        //  console.log(firstName)
+         console.log("length of name: "+firstName.value.length)
+          if(firstName.value==""){
+                console.log("name is empty")
+                let message=document.getElementById("name")
+                  message.innerHTML="please enter valid name"
+            message.style.color='red'
+          }
+          if(firstName.value.length==0){
+                console.log("enter valid name,please enter firstName ")
+          }
+          if(firstName.value.length<=5){
+                console.log(" name is weak")
+          }
+          let password=document.getElementById("password")
+        console.log(password)
+        let messagePassword=document.getElementById("messagePassword")
+        messagePassword.innerHTML="please enter valid password"
+        messagePassword.style.color='blue'
+            if(messagePassword.length<3){
+             console.log("password is weak")
+             messagePassword.innerHTML=password 
+            }
+            // let gender=document.getElementById("gender")
+            // console.log(gender)
+            // gender.innerHTML="   *Select one option for gender"
+            // gender.style.color='green'
+      
+           console.log(document.registration.gender)
+            console.log(document.registration.gender[0])
+            console.log(document.registration.gender[0].checked)
+            console.log(document.registration.gender[1].checked)
+            console.log(document.registration.gender[2].checked)
+            if(document.registration.gender[0].checked==false||document.registration.gender[1].checked==false
+            ||document.registration.gender[2].checked==false){
+                  
+                  console.log("please select gender")
+                  let genderMessage=document.getElementById("genderMessage")
+                  genderMessage.innerHTML=" please  select gender"
+                  genderMessage.style.color='red'
+            }
+      }
+   
+    
+      </script>
+</head>
+<body>
+    <form name="registration">
+          <div>
+        <label>Enetr first name</label>
+       
+        <input type="text" id="firstName">
+        <span id="name"></span>
+       <br>
+       </div>
+       <div>
+        <label>   password   :</label>
+        <span id="password"></span>
+        <input type="password" id="messagePassword">
+        <span id="messagePassword"></span>
+       </div>
+       
+        <!-- <label>Enetr second name</label>
+        <input type="text" name="second">
+        <button type="button" onmouseup="display()">Register</button> -->
+
+        <div>
+
+              <label>Select Gender</label>
+              <input type="radio" name="gender" >Male
+              <input type="radio" name="gender">Female
+              <input type="radio" name="gender">Other
+              <span id="gender"></span>
+<span id="genderMessage"></span>
+        </div>
+
+        <div>
+              <label>Select City</label>
+              <select name="city">
+                    <option value="0">---Select City----</option>
+                    <option>Bangalore</option>
+                    <option>Mysore</option>
+              </select>
+        </div>
+        <button type="button" onclick="display()">Register</button>
+       
+    </form>
+
+</body>
+</html>
